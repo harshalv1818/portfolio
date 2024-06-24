@@ -1,0 +1,68 @@
+.contact-me-section{
+    margin-block: 5rem;
+}
+
+.contact-me-section h1,h3{
+    text-align: center;
+}
+
+.contact-form
+{
+    flex-direction: column;
+}
+
+.contact-form input{
+    width: 50vw;
+    height: 50px;
+    background-color: white;
+    border-radius: 8px;
+    margin-block:15px;
+    font-size: 1.2rem;
+    padding-left: 10px;
+}
+
+.contact-form textarea{
+    background-color: white;
+    width: 50vw;
+    height: 200px;
+    margin-block:15px;
+    font-size: 1.2rem;
+    padding-left: 10px;
+    border-radius: 8px;
+}
+
+::placeholder{
+    font-size: 1rem;
+    padding-left: 0.6rem;
+    font-weight: 500;
+}
+
+.contact-form textarea::placeholder {
+    font-size: 1.1rem;
+    padding-left: 0.6rem;
+    font-weight: 500;
+    padding-top: 1rem;
+  }
+
+.link{
+    width: 5.5rem;
+    object-fit: cover;
+}
+
+.submit-btn
+{
+    background-color: white;
+    color: black;
+    padding: 12px 2.8rem;
+    border-radius: 12px;
+    font-size: 1.3rem;
+    margin-block: 1rem;
+    cursor: pointer;
+}
+
+.social-links
+{
+    gap: 3rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}

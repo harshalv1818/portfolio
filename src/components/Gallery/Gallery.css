@@ -1,0 +1,48 @@
+.gallery
+{
+    display: grid;
+    width:90vw;
+    margin: auto auto;
+    gap:8px;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: 200px;
+    border: 2px solid white ;
+    padding: 15px 15px;
+}
+
+.box{
+    background-image : url("../../assets/2.jpg");
+    background-size: cover;
+    /* color: white; */
+    display: flex;
+    justify-content: center;
+   
+    /* display flex and justify content/ align-items is for text in the box  */
+    background-color: #221;
+    background-blend-mode: hard-light;
+    transition: 0.2s ease-in-out;
+}
+
+.box:hover{
+    background-color: #999;
+    transition: all 1s ease-in-out;
+    background-position: center;
+}
+
+/* utility class for rows and column  */
+.row-2{
+    grid-row: span 2;
+}
+.col-2{
+    grid-column: span 2;
+}
+
+.gallery-heading{
+    text-align: center;
+}
+
+.gallery-heading{
+    margin-top: 20px;
+    padding-block: 20px;
+    text-align: center;
+}

@@ -1,0 +1,95 @@
+
+/* navbar  */
+.main-nav{
+    justify-content: space-between;
+    padding-block: 8px;
+    /* position:fixed;
+    top:0;
+    right:0;
+    left:0; */
+}
+.company-logo img{
+    width:100px;
+    object-fit: cover;
+}
+
+.nav-links
+{
+    gap:40px;
+    font-size: 1.5rem;
+}
+
+.nav-items:hover{
+    color: rgb(255, 255, 139);
+    padding-bottom: 0.5rem;
+    border-bottom: 2.2px solid yellow;
+}
+
+.contact-us{
+    background-color: white; 
+    color:black;
+    font-size:1.3rem;
+    padding:12px 15px;
+    border-radius: 4px;
+    gap:10px;
+    align-items: center;
+}
+.contactImg
+{
+    width: 22px;
+    padding-top: 4px;
+}
+
+.active
+{
+    color: yellow;
+}
+
+.hamburMenu
+{
+    position: absolute;
+    top:5rem;
+
+    z-index: 2;
+    gap:1rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-block: 0.8rem;
+    height: fit-content;
+    width: 100vw;
+    background-color: rgb(40, 40 , 40);
+    border-radius: 5px;
+}
+
+
+.hambur-links:hover{
+    color: rgb(255, 255, 139);
+    padding-bottom: 0.5rem;
+    border-bottom: 2.2px solid yellow;
+    
+}
+.ham-image{
+    margin-right: 10px;
+    width: 2rem;
+    object-fit: cover;
+}
+
+.hamburMenu , .ham-image
+{
+    display: none;
+    
+}
+
+
+@media screen and (max-width:768px) {
+.hamburMenu , .ham-image
+{
+    display: block;
+    
+}
+
+.nav-links, .contact-us{
+    display: none;
+}
+    
+}

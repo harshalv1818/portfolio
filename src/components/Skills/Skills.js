@@ -21,12 +21,12 @@ const Skills = () => {
                 </div>
                 <div className="skill-card">
                     <img src={AppDesign} alt="" />
-                    <h3>App Design</h3>
+                    <h3>App Development</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, similique?</p>
                 </div>
                 <div className="skill-card">
                     <img src={WebDesign} alt="" />
-                    <h3>Web Design</h3>
+                    <h3>Web Development</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, similique?</p>
                 </div>
             </div>

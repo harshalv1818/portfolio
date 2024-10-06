@@ -1,16 +1,19 @@
 
 /* navbar  */
+
 .main-nav{
     justify-content: space-between;
-    padding-block: 8px;
+    padding-block: 8px ;
     /* position:fixed;
     top:0;
     right:0;
     left:0; */
+    
 }
 .company-logo img{
     width:100px;
     object-fit: cover;
+    margin-left: 3px;
 }
 
 .nav-links
@@ -29,6 +32,7 @@
     background-color: white; 
     color:black;
     font-size:1.3rem;
+    margin-right: 3px;
     padding:12px 15px;
     border-radius: 4px;
     gap:10px;
@@ -81,7 +85,7 @@
 }
 
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:900px) {
 .hamburMenu , .ham-image
 {
     display: block;

@@ -68,3 +68,18 @@ p {
 .spacer{
     height: 100vh;
 }
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    /* Styles for devices between 601px and 1024px */
+    body {
+        font-size: 14px; /* Smaller font for mobile */
+      } 
+      
+  }
+  
+  @media (min-width: 1025px) {
+    /* Styles for devices wider than 1024px */
+    body {
+        font-size: 16px; /* Smaller font for mobile */
+      } 
+  }

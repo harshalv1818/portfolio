@@ -36,3 +36,28 @@
 .skill-card p{
     margin-top: 3px;
 }
+
+@media (max-width: 600px){
+
+    .skill-card:hover{
+        box-shadow: 0 0 20px #fffefe;
+        padding: 20px 20px 20px 20px;
+    }
+
+    .skill-card{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .skill-card:hover{
+        box-shadow: 0 0 20px #fffefe;
+        padding: 20px 20px 20px 20px;
+    }
+
+    .skill-card{
+        width: 80%;
+        margin: auto;
+    }
+}

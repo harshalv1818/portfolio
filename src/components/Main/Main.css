@@ -29,7 +29,7 @@
     
     width: 33rem;
     margin-inline: auto;
-   
+   margin-left: 2rem;
     
 }
 
@@ -46,26 +46,19 @@
     
         width: 30rem;
         justify-content: right;
-        margin-inline: 100px;
+        
                  
         
     }
 
-    .header-left{
+    /* .header-left{
     
         flex-direction: column;
         justify-content: start;
         align-items: start;
         margin-left:2rem;
-        
-        
-        
-       
-        
-    }
-    body {
-        font-size: 14px; /* Smaller font for mobile */
-      } 
+    } */
+    
     
 }
 
